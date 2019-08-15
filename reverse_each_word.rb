@@ -1,10 +1,10 @@
-=begin 
+
 def reverse_each_word(string)
   array = string.split(" ")
   new_spring = ""
-  array.each{|word| new_spring << word.reverse}
+  array.each{|word| word.reverse!}
 end
-=end
+
 
 
 def reverse_each_word(string)
