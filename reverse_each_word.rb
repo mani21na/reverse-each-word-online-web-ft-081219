@@ -8,9 +8,8 @@ end
 
 def reverse_each_word(string)
   array = string.split(" ")
-  new_spring = ""
   array.collect do |word|
-    new_spring << word.reverse
+    word.reverse
   end
   puts new_spring
 end
