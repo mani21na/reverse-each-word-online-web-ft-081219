@@ -12,5 +12,4 @@ def reverse_each_word(string)
     word.reverse
     array.join
   end
-  puts new_spring
 end
